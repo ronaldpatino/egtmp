@@ -2,3 +2,24 @@
     margin: 0 auto;
     max-width: 940px;
 }
+
+.azul{
+    background-color: #106CB7;
+    display: block;
+    padding: 5px 5px 5px 40px;
+}
+
+.info{
+    background-color: #222222;
+    padding-top: 10px !important;
+}
+
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+a.thumbnail {
+    border: 0px !important;
+}
