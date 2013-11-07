@@ -1,3 +1,7 @@
+body{
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
 .container-narrow{
     margin: 0 auto;
     max-width: 940px;
@@ -43,9 +47,9 @@ a.thumbnail {
 .navbar .nav > li > a {
     background-color: #106CB7;
     color: white;
+    text-shadow: none;
 
 }
-
 
 /* set hover and focus to lightblue */
 .navbar .nav > li > a:focus,
