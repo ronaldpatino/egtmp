@@ -19,7 +19,7 @@
 <body>
 
 <div class="container-narrow text-center">
-    <img src="img/logo_eg.png" width="819" height="91">
+    <img src="img/logo_eg.png" width="940" height="100">
 </div>
 
 <br/>
@@ -41,10 +41,43 @@
         </div>
     </div>
 
-    <!-- Main hero unit for a primary marketing message or call to action -->
+
     <div class="row-fluid">
         <div class="span12">
-            <img src="img/banner1.jpg" width="940" height="280">
+
+            <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+                <div class="carousel-inner">
+                    <div class="item active"><!-- class of active since it's the first item -->
+                        <img src="img/banner1.jpg" width="940" height="280">
+                        <div class="carousel-caption">
+                            <p>Caption text here</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/banner1.jpg" width="940" height="280">
+                        <div class="carousel-caption">
+                            <p>Caption text here</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/banner1.jpg" width="940" height="280">
+                        <div class="carousel-caption">
+                            <p>Caption text here</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/banner1.jpg" width="940" height="280">
+                        <div class="carousel-caption">
+                            <p>Caption text here</p>
+                        </div>
+                    </div>
+                </div><!-- /.carousel-inner -->
+                <!--  Next and Previous controls below
+                      href values must reference the id for this carousel -->
+                <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+            </div><!-- /.carousel -->
+
         </div>
     </div>
     <!-- /row-fluid -->
@@ -112,7 +145,7 @@
                 </ul>
             </div>
         </div>
-        <div class="span1 no_margin">
+        <div class="span1 no_margin hidden-phone hidden-tablet">
             <img src="img/separador_vertical.png" width="2" height="195">
          </div>
         <div class="span3">
@@ -129,7 +162,7 @@
                 </ul>
             </div>
         </div>
-        <div class="span1 no_margin" >
+        <div class="span1 no_margin hidden-phone hidden-tablet" >
             <img src="img/separador_vertical.png" width="2" height="195">
         </div>
         <div class="span3">
