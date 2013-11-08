@@ -211,7 +211,22 @@
     </div>
 </div>
 
+<div id="myLightbox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-content'>
+        <img src="img/actualiza_datos.jpg">
+        <div class="lightbox-caption"><p>Your caption here</p></div>
+    </div>
+</div>
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/jqm.js"></script>
+<script>
+    $( document ).ready(function() {
+        $('#myLightbox').lightbox();
+        console.log( "ready!" );
+    });
+</script>
+
 </body>
 </html>
