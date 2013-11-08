@@ -163,12 +163,10 @@ a.thumbnail {
     padding: 2%;
     font-size: 14px;
     line-height: 18px;
-    color: white;
+    color: #000000;
     text-align: center;
-    text-shadow: 0 -1px 0 #000000;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
-    background: #000;
-    background: rgba(0, 0, 0, 0.6);
+
+
 }
 
 .lightbox-header .close {
