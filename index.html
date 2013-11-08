@@ -19,27 +19,36 @@
 <body>
 
 <div class="container-narrow text-center">
-    <img src="img/logo_eg.png" width="940" height="100">
+    <img src="img/logo_eg.jpg" width="940" height="100">
 </div>
 
 <br/>
 
 <div class="container-narrow">
-
     <div class="navbar">
         <div class="navbar-inner">
-            <ul class="nav">
-                <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="#">Transparencia</a></li>
-                <li><a href="#">Programas/Servicios</a></li>
-                <li><a href="#">Planificaci&oacute;n</a></li>
-                <li><a href="#">Comunicados</a></li>
-                <li><a href="#">Biblioteca</a></li>
-                <li><a href="#">Enlaces</a></li>
-                <li><a href="#">Cont&aacute;cto</a></li>
-            </ul>
+            <div class="container-fluid">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li><a href="#">Transparencia</a></li>
+                        <li><a href="#">Programas/Servicios</a></li>
+                        <li><a href="#">Planificaci&oacute;n</a></li>
+                        <li><a href="#">Comunicados</a></li>
+                        <li><a href="#">Biblioteca</a></li>
+                        <li><a href="#">Enlaces</a></li>
+                        <li><a href="#">Cont&aacute;cto</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
         </div>
     </div>
+
 
 
     <div class="row-fluid">
@@ -47,33 +56,20 @@
 
             <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
                 <div class="carousel-inner">
+                    <div class="item">
+                        <img src="img/carrusel2.jpg" width="940" height="430">
+                    </div>
                     <div class="item active"><!-- class of active since it's the first item -->
-                        <img src="img/banner1.jpg" width="940" height="280">
-                        <div class="carousel-caption">
-                            <p>Caption text here</p>
-                        </div>
+                        <img src="img/carrusel1.jpg" width="940" height="430">
                     </div>
                     <div class="item">
-                        <img src="img/banner1.jpg" width="940" height="280">
-                        <div class="carousel-caption">
-                            <p>Caption text here</p>
-                        </div>
+                        <img src="img/carrusel3.jpg" width="940" height="430">
                     </div>
                     <div class="item">
-                        <img src="img/banner1.jpg" width="940" height="280">
-                        <div class="carousel-caption">
-                            <p>Caption text here</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="img/banner1.jpg" width="940" height="280">
-                        <div class="carousel-caption">
-                            <p>Caption text here</p>
-                        </div>
+                        <img src="img/carrusel4.jpg" width="940" height="430">
+
                     </div>
                 </div><!-- /.carousel-inner -->
-                <!--  Next and Previous controls below
-                      href values must reference the id for this carousel -->
                 <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
                 <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
             </div><!-- /.carousel -->
@@ -96,7 +92,7 @@
             </div>
             <div class="row-fluid">
                 <div class="span12">
-                    OTRO
+                    <img src="img/en_construccion.jpg">
                 </div>
             </div>
         </div>
@@ -178,6 +174,11 @@
         <ul class="thumbnails">
             <li class="span2">
                 <a href="#" class="thumbnail">
+                    <img src="img/ecuador_ama_la_vida.jpg" width="97" height="60">
+                </a>
+            </li>
+            <li class="span2">
+                <a href="#" class="thumbnail">
                     <img src="img/presidencia.png" width="171" height="42">
                 </a>
             </li>
@@ -190,11 +191,6 @@
                 <a href="#" class="thumbnail">
                     <img src="img/logotipo_ministerio_coordinador_sectores_estrategicos_ecuador.jpg" width="180"
                          height="45">
-                </a>
-            </li>
-            <li class="span2">
-                <a href="#" class="thumbnail">
-                    <img src="img/ecuador_ama_la_vida.jpg" width="97" height="60">
                 </a>
             </li>
             <li class="span2">

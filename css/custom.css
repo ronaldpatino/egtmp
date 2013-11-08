@@ -48,7 +48,7 @@ a.thumbnail {
     background-color: #106CB7;
     color: white;
     text-shadow: none;
-
+    padding: 10px 10px 10px;
 }
 
 /* set hover and focus to lightblue */
